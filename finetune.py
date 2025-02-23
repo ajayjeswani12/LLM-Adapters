@@ -194,7 +194,7 @@ def train(
             task_type="CAUSAL_LM",
         )
     
-        )
+        
     elif adapter_name == "prefix-tuning":
         config = PrefixTuningConfig(
             num_virtual_tokens=num_virtual_tokens,
