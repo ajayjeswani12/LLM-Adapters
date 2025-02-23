@@ -183,7 +183,7 @@ def train(
                                                                     ]  # could be sped up, probably
         return tokenized_full_prompt
 
-    model = prepare_model_for_int8_training(model, use_gradient_checkpointing=use_gradient_checkpointing)
+    model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=use_gradient_checkpointing)
     if adapter_name == "lora":
         config = LoraConfig(
             r=lora_r,
