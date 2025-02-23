@@ -75,7 +75,6 @@ def train(
         f"lora_alpha: {lora_alpha}\n"
         f"lora_dropout: {lora_dropout}\n"
         f"lora_target_modules: {lora_target_modules}\n"
-        f"non_linearity: {non_linearity}\n"
         f"adapter_dropout: {adapter_dropout}\n"
         f"use_parallel_adapter: {use_parallel_adapter}\n"
         f"use_adapterp: {use_adapterp}\n"
