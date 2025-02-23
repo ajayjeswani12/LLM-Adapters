@@ -16,7 +16,6 @@ import bitsandbytes as bnb
 sys.path.append(os.path.join(os.getcwd(), "peft/src/"))
 from peft import (  # noqa: E402
     LoraConfig,
-    BottleneckConfig,
     PrefixTuningConfig,
     get_peft_model,
     get_peft_model_state_dict,
